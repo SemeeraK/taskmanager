@@ -1,0 +1,42 @@
+.footer {
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+
+.footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.footer p {
+    font-size: 0.875rem;
+    color: #024358;
+}
+
+.footer .social-icons a {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+    color: #f0f0f0;
+}
+
+.footer .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer .list-unstyled li {
+    margin-bottom: 0.5rem;
+}
+
+.footer .list-unstyled li a {
+    text-decoration: none;
+    color: #087295;
+    transition: color 0.3s;
+}
+
+.footer .list-unstyled li a:hover {
+    color: #f0f0f0;
+}

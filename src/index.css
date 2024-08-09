@@ -1,13 +1,83 @@
-body {
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+
+h1,h2,h3,h4,h5,h6{
+  /* font-family: "Permanent Marker", cursive; */
+  font-family: "Cinzel", serif;
+  font-weight: bolder;
+  font-weight: 600;
+  /* font-size: larger; */
+  color: #036041;
+
+ 
+}
+}
+p{
+  /* font-family: "Sevillana", cursive; */
+  /* font-family: "Josefin Sans", sans-serif; */
+  font-family: "Lobster", sans-serif;
+}
+#b{
+  background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+
+/* background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%); */
+
+#t{
+  /* color: #132257; */
+  color: #043927;
+  font-weight: bolder;
+  font-family: "Lobster", sans-serif;
+}
+#bb{
+  /* background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%); */
+background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.p{
+  color:#33006F;
+  font-weight: 500;
+
 }
+#btn{
+  font-family: "Cinzel", serif;
+  /* font-family: "Sevillana", cursive; */
+    /* font-family: "Josefin Sans", sans-serif; */
+    font-size: larger;
+    font-weight: 700;
+    color: #132257;
+    border: 1px solid #B0C4DE ;
+    border-radius: 20px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    &:hover{
+      background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    }
+}
+
+
+
+}
+#btn{
+  /* font-family: "Lobster", sans-serif; */
+
+  font-family: "Cinzel", serif;
+    /* font-family: "Josefin Sans", sans-serif; */
+    font-size:larger;
+    font-weight: 700;
+    color: #132257;
+    border: 1px solid #B0C4DE ;
+    border-radius: 20px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    &:hover{
+      background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    }
+
+   
+}
+
